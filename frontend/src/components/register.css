@@ -1,0 +1,62 @@
+.registerContainer{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+form{
+    border-radius:20px;
+    padding:20px;
+    width:500px;
+    height:450px;
+    background-color:rgb(221, 208, 208);
+    display: flex;
+    flex-direction: column;
+
+   
+}
+input{
+    padding-left:10px;
+}
+.rButton{
+    background-color: slateblue;
+    color: white;
+    border: none;
+    height:50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color:slateblue;
+  font-weight: 700;
+  display: flex; 
+  align-items: center;
+
+}
+.success{
+    text-align: center;
+    color:green;
+    font-size: 12px;
+}
+
+.failure{
+    text-align: center;
+    color: red;
+    font-size:12px;
+}
+
+.cancel{
+   
+   
+padding-left: 350px;
+color: black;
+cursor: pointer;
+}
