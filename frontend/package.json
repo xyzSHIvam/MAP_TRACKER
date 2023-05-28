@@ -1,4 +1,4 @@
-{ "proxy": "http://localhost:5000/api",
+{ "proxy": "https://map-tracker.onrender.com/api",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
