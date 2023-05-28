@@ -21,7 +21,7 @@ const newUser={
   password:passwordRef.current.value
 }
 try{
-   await axios.post("/users/register",newUser);
+   await axios.post("https://map-tracker.onrender.com/users/register",newUser);
    setfailure(false);
    setSuccess(true);
   }
